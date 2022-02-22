@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    transition: all ease-in-out 250ms;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px, 0 , 0 , 0;
+}
+
+p {
+    line-height: 1.75;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 120px 0px;
+}
+
+
+.first {
+    background-color: rgb(41, 62, 70);
+    color: white;
+}
+
+.middle {
+    background-color: rgb(154, 199, 195);
+    color: white;
+}
+
+.end {
+    background-color: rgb(16, 149, 146);
+    color: white;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.btn-first {
+    background-color: aqua;
+}
+
+.btn-first:hover {
+    background-color: rgb(59, 143, 143)
+}
+
+
+.btn-middle {
+    /* background-color: rgb(240, 63, 63); */
+    border: 1px solid white;
+}
+
+.btn-middle:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-awesome {
+    background-color: rgb(86, 170, 170);
+    box-shadow: 0px 14px 13px -2px rgb(59, 44, 44);
+}
+
+.btn-awesome:hover {
+    transform: translateY(-10px);
+    background-color: rgb(86, 170, 170);
+    box-shadow: 0px 14px 13px -10px rgb(59, 44, 44);
+}
